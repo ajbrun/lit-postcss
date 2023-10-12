@@ -49,6 +49,7 @@ export class MyElement extends LitElement {
 
   static styles = css`
     :host {
+      columns: 5; // Should expect prefixes outputted to browser!
       max-width: 1280px;
       margin: 0 auto;
       padding: 2rem;
